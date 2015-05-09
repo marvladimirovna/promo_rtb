@@ -1,0 +1,66 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="lib/fullpage.js/jquery.fullPage.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+<script src="lib/jquery/dist/jquery.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+<!-- <script src="vendors/jquery.easings.min.js"></script> -->
+
+
+<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+<!-- <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script> -->
+
+<script type="text/javascript" src="lib/fullpage.js/jquery.fullPage.js"></script>
+</head>
+<body>
+<div id="fullpage">
+    <div class="section section1">
+        <div class="section1-text">
+            <h3>AN APP FOR RUSHING WALKERS</h3>
+            <span>
+                It helps people who are running late to get to their destination in time.
+                The app is built as a game, so you enjoy walking being involved in the game experience.
+            </span> 
+        </div>
+    </div>
+    <div class="section section2">
+        <div class="left-text">
+            know how fast you should walk to arrive on time
+        </div>
+        <div class="right-text">
+            get a coffee on the way without loosing time
+        </div>
+    </div>
+    <div class="section section3">
+        <div class="singup">
+            <input id="email" type="text" placeholder="SIGN UP FOR UPDATES" />
+            <button id="submitBtn" onclick="submitEmail()">SUBMIT</button>
+            <span class="social">
+                <span class="fb"><a href="http://www.facebook.com">&nbsp;</a></span>
+                <span class="twitter"><a href="http://www.twitter.com">&nbsp;</a></span>
+                <span class="gplus"><a href="http://plus.google.com">&nbsp;</a></span>
+            </span>
+        </div>
+        <span class="copy">
+            &copy; Mariya Yukhimenko
+        </span>
+    </div>
+</div>
+
+
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+});
+
+function submitEmail() {
+    $("#email").val("");
+    $("#submitBtn").text("SUBMITTED");
+}
+</script>
+
+</body>
+</html>

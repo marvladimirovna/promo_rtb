@@ -1,0 +1,168 @@
+body {
+    background-color: #FCFAF2;
+    font-family: 'Varela Round';
+}
+
+h3 {
+    font-size: 20px;
+    color: #1494B2;
+}
+
+.section {
+
+}
+
+.section1 {
+    background-image: url(../img/first_with_line.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+
+.section1-text {
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 400px;
+}
+
+.section1-text h3 {
+    width: 100%;
+    text-align: right;
+}
+
+.section1-text span {
+    text-align: right;
+    display: block;
+    color: #CCCCCC;
+    font-size: 13px;
+}
+
+.section2 {
+    background-image: url(../img/refined.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+
+.section2 .left-text {
+    width: 200px;
+    font-size: 18px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    text-align: right;
+    color: #1494B2;
+    margin-left: 50px;
+    font-variant: small-caps;
+}
+
+.section2 .right-text {
+    width: 200px;
+    font-size: 18px;
+    position: absolute;
+    right: 0px;
+    bottom: 200px;
+    color: #1494B2;
+    text-align: left;
+    margin-right: 50px;
+    font-variant: small-caps;
+}
+
+.section3 {
+    background-image: url(../img/bluebluebunny.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.section3 .social {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.section3 .social span {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.section3 button {
+  height: 30px;
+  border-radius: 7px;
+  border: 0;
+  background-color: #EEECE7;
+  color: #1494B2;
+}
+
+::-webkit-input-placeholder {
+    color: #CCCCCC;
+}
+
+.section3 .singup {
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  padding-top: 120px;
+}
+
+.section3 .singup input {
+  height: 30px;
+  width: 250px;
+  border-radius: 7px;
+  border: 0;
+  background-color: #EEECE7;
+  padding: 7px;
+  font-size: 16px;
+  padding-left: 20px;
+  font-family: 'Varela Round';
+  color: #1494B2;
+}
+
+.section3 .fb {
+    background-image: url(../img/fb.png);
+}
+
+.section3 .gplus {
+    background-image: url(../img/g.png);
+}
+
+.section3 .twitter {
+    background-image: url(../img/tw.png);
+}
+
+@media (max-width: 1000px) {
+    .section2 .right-text, .section2 .left-text {
+        display: none;
+    }
+}
+
+input:-webkit-autofill {
+    background-color: transparent;
+}
+
+
+.section3 a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.section3 .copy {
+    padding-left: 10px;
+    padding-bottom: 10px;
+position: absolute;
+  color: #CCCCCC;
+  font-size: 12px;
+  left: 0;
+  bottom: 0;
+}
