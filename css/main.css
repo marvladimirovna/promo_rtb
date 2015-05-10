@@ -3,9 +3,14 @@ body {
     font-family: 'Varela Round';
 }
 
+img {
+max-width: 100%;
+
+}
+
 h3 {
     font-size: 20px;
-    color: #1494B2;
+    color: #ffffff;
 }
 
 .section {
@@ -13,11 +18,13 @@ h3 {
 }
 
 .section1 {
-    background-image: url(../img/first_with_line.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     position: relative;
+/*    background-color: #3f95b2;*/
+    background: linear-gradient(#1794b1 70%, transparent 30%);
+    
 }
 
 .section1-text {
@@ -36,43 +43,148 @@ h3 {
 .section1-text span {
     text-align: right;
     display: block;
-    color: #CCCCCC;
+    color: #e6e6e6;
     font-size: 13px;
 }
 
+.section1 .fa{
+color:#ffffff;
+padding-left: 20px;
+
+}
+.section1 a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+.section1 button {
+  height: 30px;
+  border-radius: 7px;
+  border: 0;
+  background-color: #EEECE7;
+  color: #1494B2;
+}
+
+::-webkit-input-placeholder {
+    color: #CCCCCC;
+    font-family: 'Varela Round';
+}
+
+.section1 .singup1 {
+  width: 100%;
+  text-align: right;
+/*  top: 10%;*/
+  position: absolute;
+/*  padding-top: 100px;*/
+}
+
+.section1 .singup1 input {
+  height: 30px;
+  width: 250px;
+  border-radius: 7px;
+  border: 0;
+  background-color: #EEECE7;
+  padding: 7px;
+  font-size: 14px;
+/*  padding-left: 20px;*/
+  font-family: 'Varela Round';
+  color: #1494B2;
+}
+
+.social {
+    display: block;
+    width: 100%;
+    padding-top: 100px;
+}
+
+
 .section2 {
-    background-image: url(../img/refined.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
     position: relative;
 }
 
-.section2 .left-text {
-    width: 200px;
+.section2 .title_sec2 {
+/*    width: 200px;*/
     font-size: 18px;
     position: absolute;
-    top: 200px;
-    left: 0px;
-    text-align: right;
-    color: #1494B2;
-    margin-left: 50px;
+    top: 50px;
+/*    left: 50%;*/
+    text-align: center;
+    color: #808080;
+/*    margin-left: 50px;*/
     font-variant: small-caps;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
-.section2 .right-text {
-    width: 200px;
-    font-size: 18px;
+.section2 .text_sec2 {
+    width: 500px;
+    font-size: 14px;
     position: absolute;
-    right: 0px;
-    bottom: 200px;
-    color: #1494B2;
-    text-align: left;
-    margin-right: 50px;
-    font-variant: small-caps;
+    top: 100px;
+    color: #CCCCCC;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
-.section3 {
+.section2 .user{
+    position: absolute;
+    top:300px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+}
+
+.section3 .title_sec3{
+
+font-size: 18px;
+    position: absolute;
+    top: 50px;
+/*    left: 50%;*/
+    text-align: center;
+    color: #808080;
+/*    margin-left: 50px;*/
+    font-variant: small-caps;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.section3 .text_sec3 {
+    width: 500px;
+    font-size: 14px;
+    position: absolute;
+    top: 100px;
+    color: #CCCCCC;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.section3 .phones_sec3{
+    position: absolute;
+    top:230px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+}
+
+.section4 {
     background-image: url(../img/bluebluebunny.png);
     background-size: 200px 200px;
     background-repeat: no-repeat;
@@ -80,13 +192,13 @@ h3 {
     position: relative;
 }
 
-.section3 .social {
+.social {
     display: block;
     width: 100%;
     padding-top: 20px;
 }
 
-.section3 .social span {
+.social span {
     width: 30px;
     height: 30px;
     background-size: contain;
@@ -94,7 +206,7 @@ h3 {
     background-repeat: no-repeat;
 }
 
-.section3 button {
+.section4 button {
   height: 30px;
   border-radius: 7px;
   border: 0;
@@ -106,7 +218,7 @@ h3 {
     color: #CCCCCC;
 }
 
-.section3 .singup {
+.section4 .singup {
   width: 100%;
   text-align: center;
   top: 50%;
@@ -114,7 +226,7 @@ h3 {
   padding-top: 120px;
 }
 
-.section3 .singup input {
+.section4 .singup input {
   height: 30px;
   width: 250px;
   border-radius: 7px;
@@ -127,22 +239,14 @@ h3 {
   color: #1494B2;
 }
 
-.section3 .fb {
-    background-image: url(../img/fb.png);
-}
+.section4 .fa{
+color: #3f95b2;
+padding-left: 20px;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
 
-.section3 .gplus {
-    background-image: url(../img/g.png);
-}
-
-.section3 .twitter {
-    background-image: url(../img/tw.png);
-}
-
-@media (max-width: 1000px) {
-    .section2 .right-text, .section2 .left-text {
-        display: none;
-    }
 }
 
 input:-webkit-autofill {
@@ -150,14 +254,14 @@ input:-webkit-autofill {
 }
 
 
-.section3 a {
+.section4 a {
     display: block;
     width: 30px;
     height: 30px;
     text-decoration: none;
 }
 
-.section3 .copy {
+.section4 .copy {
     padding-left: 10px;
     padding-bottom: 10px;
 position: absolute;
@@ -166,3 +270,5 @@ position: absolute;
   left: 0;
   bottom: 0;
 }
+
+
