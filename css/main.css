@@ -27,12 +27,17 @@ h3 {
     
 }
 
+.section1 .text-wrapper {
+  width: 100%;
+  text-align: right;
+}
+
 .section1-text {
     padding: 20px;
-    position: absolute;
     top: 0px;
     right: 0px;
     max-width: 400px;
+    margin-left: auto;
 }
 
 .section1-text h3 {
@@ -52,22 +57,23 @@ color:#ffffff;
 padding-left: 20px;
 
 }
-.section1 a {
+.section1 .social a {
     display: block;
     width: 30px;
     height: 30px;
     text-decoration: none;
 }
-.section1 button {
+
+/*.section1 button {
   height: 30px;
   border-radius: 7px;
   border: 0;
   background-color: #EEECE7;
   color: #1494B2;
-}
+}*/
 
 ::-webkit-input-placeholder {
-    color: #CCCCCC;
+    color: white;
     font-family: 'Varela Round';
 }
 
@@ -271,4 +277,33 @@ position: absolute;
   bottom: 0;
 }
 
+.first_phone {
+  max-width: 90%;
+  max-height: 50%;
+  margin-left: 50px;
+}
 
+.coming-soon {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 8px;
+  background: transparent;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.signup1 {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.section3 {
+  
+}
+
+.section {
+  overflow: hidden;
+  position: relative;
+}
